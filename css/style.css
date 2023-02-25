@@ -1,0 +1,51 @@
+html, body {
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Poppins&family=Varela+Round&display=swap');
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 15vw;
+    height: 5vh;
+    border: rgb(2, 107, 255) 2px solid;
+    background-color: rgba(32, 32, 32, 0);
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.style1 {
+    border-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.style2 {
+    border-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(2, 107, 255);
+    color: rgb(255, 255, 255);
+    border: rgb(186, 186, 186) 2px solid;
+    transition: background-color 200ms linear, border 200ms linear, color 200ms linear;
+}
